@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".control.selectDaysFragment">
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:tag="1"
+        android:text="sun"
+        android:textOff="sun"
+        android:textOn="Sun"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:tag="2"
+        android:text="mon"
+        android:textOff="mon"
+        android:textOn="Mon"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_3"
+        android:tag="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="tue"
+        android:textOff="tue"
+        android:textOn="Tue"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_4"
+        android:tag="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="wed"
+        android:textOff="wed"
+        android:textOn="Wed"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_5"
+        android:tag="16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="thu"
+        android:textOff="thu"
+        android:textOn="Thu"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_6"
+        android:tag="32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="fri"
+        android:textOff="fri"
+        android:textOn="Fri"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_7"
+        android:tag="64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="sat"
+        android:textOff="sat"
+        android:textOn="Sat"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
